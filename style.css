@@ -8,7 +8,9 @@ Hvis det kun er ét, brug id.*/
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     text-align: center;
-    margin-bottom: 3%; /*husk at justere på margin*/
+    margin-bottom: 3%; /*husk at justere på margin 
+    vedr. at rykke teksten op og ned 
+    - du rykker på tekstens placering via margin*/
 }
 /*hovedoverskrift "Mathilde Fomsgaard."*/
 
@@ -17,8 +19,8 @@ Hvis det kun er ét, brug id.*/
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  border: 2px solid green;
+  width: 30%; /*størrelse på billedet*/
+  border: 2px solid green; /*ramme omkring billedet.*/
 } 
 /*profilbillede*/
 
@@ -30,6 +32,7 @@ Hvis det kun er ét, brug id.*/
     border-color: green;
 }
 
+.navn3 { font-family: Comic Sans MS;}
 
 .bio1 {
     font-size: medium;
@@ -39,13 +42,20 @@ Hvis det kun er ét, brug id.*/
     border-color: green;
 }
 
+.navn4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
 .intro {
     text-align: center;
     margin: auto;
 border: 2px solid green;
 padding: 5px;
 width: 300px;
-border-radius: 50px;
+border-radius: 50px; /*hvor rund rammen er.*/
 }
 
 .tegning1 {display: block;
